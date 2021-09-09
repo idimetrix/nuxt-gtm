@@ -1,0 +1,40 @@
+{
+  "name": "nuxt-gtm",
+  "version": "1.0.1",
+  "description": "Google Tag Manager Module for Nuxt.js",
+  "repository": "https://github.com/idimetrix/nuxt-gtm",
+  "license": "MIT",
+  "main": "lib/module.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "nuxt example",
+    "generate": "nuxt generate example",
+    "lint": "eslint --ext .js,.vue example lib test",
+    "lint:fix": "yarn lint --fix",
+    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "test": "yarn lint && jest"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "semver": "^7.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "latest",
+    "@babel/preset-env": "latest",
+    "@nuxtjs/eslint-config": "latest",
+    "@nuxtjs/module-test-utils": "latest",
+    "@types/jest": "latest",
+    "babel-eslint": "latest",
+    "babel-jest": "latest",
+    "codecov": "latest",
+    "eslint": "latest",
+    "jest": "latest",
+    "nuxt-edge": "latest",
+    "standard-version": "latest"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
