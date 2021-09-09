@@ -1,6 +1,6 @@
 {
   "name": "nuxt-gtm",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Google Tag Manager Module for Nuxt.js",
   "repository": "https://github.com/idimetrix/nuxt-gtm",
   "license": "MIT",
